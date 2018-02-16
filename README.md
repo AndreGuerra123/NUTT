@@ -1,21 +1,20 @@
 # NUTT - Newcastle University Ph.D. Thesis Template (LaTeX)
 
-This unofficial template _targets_ ([Newcastle University] (http://www.ncl.ac.uk/)) Ph.D. students.
-The template conforms to the _Guidelines for the Submission and Format of Theses_ ([April 2015 version](http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf)). 
+This unofficial template targets _Newcastle University_ (http://www.ncl.ac.uk/) Ph.D. students.
+The template conforms to the _Guidelines for the Submission and Format of Theses_ (April 2015 version) hosted at http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf. 
 Ph.D. students must allways check their School/Faculty related restrictions under this document.
 
 ## Declaration
 
-This template was initially adapted from CUED LaTeX template by Krishna Kumar, available at https://github.com/kks32/phd-thesis-template (online). Followed by the considerations  made in a previous Newcastle University template, by Matthew Forshaw, hosted at https://github.com/MattForshaw/NewcastleComputingSciencePhDTemplateLaTeX (offline).
+This template was initially adapted from _CUED LaTeX template_ by Krishna Kumar, available at https://github.com/kks32/phd-thesis-template (online). Followed by the considerations  made in a previous _Newcastle University template_, by Matthew Forshaw, hosted at https://github.com/MattForshaw/NewcastleComputingSciencePhDTemplateLaTeX (offline).
 
-The original template was modified accordingly to the Guidelines referred above, _under the_ ([Overleaf] (https://www.overleaf.com/)) platform (which is recommended), and then cloned here.
+The original template was modified accordingly to the Guidelines refered above, under the _Overleaf_ (https://www.overleaf.com/) platform (recommended), and then cloned here.
 
 ## Install
 
 Clone the Overleaf NUTT template directly:
 
 git clone https://git.overleaf.com/13169927jqrxzzvpxmdx
-
 
 ## License
 
