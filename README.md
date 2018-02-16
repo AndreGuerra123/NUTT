@@ -1,4 +1,4 @@
-# NUTT - Newcastle University PhD Thesis Template (LaTeX)
+# NUTT - Newcastle University Ph.D. Thesis Template (LaTeX)
 
 This unofficial template targets ([Newcastle University] (http://www.ncl.ac.uk/)) Ph.D. students.
 The template conforms to the _Guidelines for the Submission and Format of Theses_ ([April 2015 version](http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf)). 
