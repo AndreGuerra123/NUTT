@@ -1,6 +1,6 @@
 # NUTT - Newcastle University Ph.D. Thesis Template (LaTeX)
 
-This unofficial template targets ([Newcastle University] (http://www.ncl.ac.uk/)) Ph.D. students.
+This unofficial template _targets_ ([Newcastle University] (http://www.ncl.ac.uk/)) Ph.D. students.
 The template conforms to the _Guidelines for the Submission and Format of Theses_ ([April 2015 version](http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf)). 
 Ph.D. students must allways check their School/Faculty related restrictions under this document.
 
@@ -8,7 +8,7 @@ Ph.D. students must allways check their School/Faculty related restrictions unde
 
 This template was initially adapted from CUED LaTeX template by Krishna Kumar, available at https://github.com/kks32/phd-thesis-template (online). Followed by the considerations  made in a previous Newcastle University template, by Matthew Forshaw, hosted at https://github.com/MattForshaw/NewcastleComputingSciencePhDTemplateLaTeX (offline).
 
-The original template was modified accordingly to the Guidelines referred above, under the ([Overleaf] (https://www.overleaf.com/)) platform (which is recommended), and then cloned here.
+The original template was modified accordingly to the Guidelines referred above, _under the_ ([Overleaf] (https://www.overleaf.com/)) platform (which is recommended), and then cloned here.
 
 ## Install
 
