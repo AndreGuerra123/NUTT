@@ -77,14 +77,15 @@ digital format of at least 300dpi. *Note* User responsability.
 individual chapters (Table 1.2 , Figure 2.3), but not within sections or sub
 sections; (Default) *Note* Second option was selected since is more clear, easy to track, and same as in CUED template. Although needs correction since Figures are cpationed as Figs.
 
-- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; TODO:Not applied.
+- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; TODO: make sure referencing is correct.
 
 - [x] Numbers and captions should appear at the bottom of the table/figure;  (Default)
 
-- [ ] The top of tables/figures printed sideways should align to the left of the page; TODO:not applied
+- [ ] The top of tables/figures printed sideways should align to the left of the page; TODO: is it like that ?
 
 ### Content
-The order of the thesis should be as follows:
+
+- [ ] The order of the thesis should be as follows: TODO: currently is out of order. Since references come first than Appendices.
 
 #### Title page – please state the following:
 
@@ -134,9 +135,18 @@ of Contents of the whole thesis must appear in each volume. *Note* this template
 #### Lists of tables, figures, etc.
 
 - [x] Items should be in the order in which they appear in the text. (Default)
-    Introduction
-    Main Thesis
-    Appendices - Supporting material of considerable length, lists, commentaries,
+
+#### Introduction
+
+- [x] Works like a chapter but is separated from the counting. Arabic numbering starts here. Sectioning works. (Default)
+
+#### Main Thesis
+
+- [x] The chapters. (Default)
+
+#### Appendices 
+
+- [x] Supporting material of considerable length, lists, commentaries,
 questionnaires etc., which would interrupt the main text, should be included as
 appendices;
 
@@ -152,19 +162,18 @@ styles as directed by your School or Institute. (Default is (Lastname, Year))
 
 - [ ] Users of EndNote will find the Newcastle Harvard Style included on all
 University networked PCs. Further information about EndNote and Harvard at
-Newcastle can be found at: http://libguides.ncl.ac.uk/endnote
+Newcastle can be found at: http://libguides.ncl.ac.uk/endnote TODO: Build some tutorials later on.
 
-- And the beautiful Mendeley which I devotely use?
+- [ ] And the beautiful Mendeley which I devotely use? TODO: Build some tutorials later on.
 
 #### Bibliography
 
 - [ ] If a bibliography is supplied it should be arranged in a logical order, for
-example alphabetically by author within broad topic categories. TODO: to be applied.
+example alphabetically by author within broad topic categories. (Default, not included)
 
 #### Index (if any)
 
-- [ ] There is no requirement to provide an index. (Although is added for the sake of tracking info down properly, Default)
-TODO: (Is it after biblio?)
+- [x] There is no requirement to provide an index. (Default, included)
 
 ## Install
 
