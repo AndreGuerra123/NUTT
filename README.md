@@ -34,7 +34,7 @@ Hereby, for sake of simplicity, the NU guidelines are presented and signed if ap
 - [x] Text should be in a single column and left-aligned; (Default)
 
 - [x] One and a half spacing between lines, including appendices and bibliography,
-but excluding quotations, footnotes or captions, which may be single-spaced. *NOTE* There is not such thing as one and half spacing, but it was set to what is considered acceptable. Space in quotations, footnotes or captions was kept equal to the remaining text. (Default, to verify)
+but excluding quotations, footnotes or captions, which may be single-spaced. *NOTE* There is not such thing as one and half spacing in LaTeX, but it was set to what is considered acceptable. Space in quotations, footnotes or captions was kept equal to the remaining text. (Default)
 
 - [x] A blank page should be left after the title page and after the
 acknowledgements to ensure these are not printed double sided. (Default)
@@ -85,7 +85,7 @@ sections; (Default) *Note* Second option was selected since is more clear, easy 
 
 ### Content
 
-- [ ] The order of the thesis should be as follows: TODO: currently is out of order. Since references come first than Appendices.
+- [x] The order of the thesis should be as follows: (Default)
 
 #### Title page – please state the following:
 
