@@ -75,13 +75,13 @@ digital format of at least 300dpi. *Note* User responsability.
 
 - [x] Number consecutively either throughout the thesis (Table 1, Figure 2) or within
 individual chapters (Table 1.2 , Figure 2.3), but not within sections or sub
-sections; (Default) *Note* Second option was selected since is more clear, easy to track, and same as in CUED template. Although needs correction since Figures are cpationed as Figs.
+sections; (Default) *Note* Second option was selected since is more clear, easy to track, and same as in CUED template.
 
-- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; TODO: make sure referencing is correct.
+- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; *Note* User responsability. In order to reference a figure ~\ref{fig:nameoffile}
 
 - [x] Numbers and captions should appear at the bottom of the table/figure;  (Default)
 
-- [ ] The top of tables/figures printed sideways should align to the left of the page; TODO: is it like that ?
+- [x] The top of tables/figures printed sideways should align to the left of the page; (Default)
 
 ### Content
 
@@ -173,7 +173,7 @@ example alphabetically by author within broad topic categories. (Default, not in
 
 #### Index (if any)
 
-- [x] There is no requirement to provide an index. (Default, included)
+- [ ] There is no requirement to provide an index. (Default, not included)
 
 ## Install
 
