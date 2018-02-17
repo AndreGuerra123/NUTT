@@ -4,7 +4,7 @@ This unofficial template targets _Newcastle University_ (http://www.ncl.ac.uk/) 
 
 The template conforms to the _Guidelines for the Submission and Format of Theses_ (April 2015 version) hosted at http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf.
 
-Ph.D. students must allways check their School/Faculty related restrictions under this document, such as maximun word number.
+Ph.D. students must allways check their School/Faculty restrictions under the above document, such as maximum word count.
 
 ## Declaration
 
@@ -44,7 +44,7 @@ acknowledgements to ensure these are not printed double sided. (Default)
 - [x] Number pages consecutively throughout the thesis from the Introduction,
 including all pages whether textual or otherwise; (Default)
 
-- [ ] For multi-volume theses a single sequence of numbers should be used; *NOTE* Not applied in this template.
+- [ ] For multi-volume theses a single sequence of numbers should be used; *NOTE* this template is single volume.
 
 - [x] Page numbers should be Arabic numerals, i.e. 1, 2, 3; (Default)
 
@@ -79,7 +79,7 @@ sections; (Default) *Note* Second option was selected since is more clear, easy 
 
 - [ ] Refer to figures/tables within the text as table 1, figure 2, etc; TODO:Not applied.
 
-- [x] Numbers and captions should appear at the bottom of the table/figure;
+- [x] Numbers and captions should appear at the bottom of the table/figure;  (Default)
 
 - [ ] The top of tables/figures printed sideways should align to the left of the page; TODO:not applied
 
@@ -91,8 +91,8 @@ The order of the thesis should be as follows:
 - [x] The full title of the thesis and any subtitle as approved by the Dean of
 Postgraduate Studies; (Default)
 
-- [x] The total number of volumes (if there is more than one), and the number of
-the particular volume; (Default)
+- [ ] The total number of volumes (if there is more than one), and the number of
+the particular volume; *Note* This template is single volume.
 
 - [x] Your full name; (Default)
 
@@ -105,7 +105,7 @@ Doctor of Philosophy (Integrated), Doctorate in Educational Psychology; (Default
 
 #### Abstract
 
-- [x] The abstract should be no longer than 300 words. (Default, but it is up to user to check word count)
+- [ ] The abstract should be no longer than 300 words. *Note* User responsability.
 
 #### Dedication (if any)
 
@@ -114,6 +114,7 @@ Doctor of Philosophy (Integrated), Doctorate in Educational Psychology; (Default
 #### Acknowledgements
 
 - [x] Noone works alone. (Default)
+
 Use this page to acknowledge those who have assisted you with your work.
 In the case of any work done jointly, or in wider collaborations, or under direction,
 it is important that the extent of your own contribution, and that made by others,
@@ -128,7 +129,7 @@ subsections; appendices, references and bibliography, and any other
 supporting material, with the relevant page numbers; (Default)
 
 - [ ] If a thesis comprises more than one volume, the Title page, Abstract and Table
-of Contents of the whole thesis must appear in each volume. *Note* Not applicable in this template.
+of Contents of the whole thesis must appear in each volume. *Note* this template is single volume.
 
 #### Lists of tables, figures, etc.
 
@@ -161,6 +162,7 @@ Newcastle can be found at: http://libguides.ncl.ac.uk/endnote
 example alphabetically by author within broad topic categories. TODO: to be applied.
 
 #### Index (if any)
+
 - [ ] There is no requirement to provide an index. (Although is added for the sake of tracking info down properly, Default)
 TODO: (Is it after biblio?)
 
