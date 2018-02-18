@@ -2,7 +2,7 @@
 
 This unofficial template targets _Newcastle University_ (http://www.ncl.ac.uk/) Ph.D. students.
 
-The template conforms to the _Guidelines for the Submission and Format of Theses_ (April 2015 version) hosted at http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf.
+The template conforms to the _Guidelines for the Submission and Format of Theses_ (April 2015 version) hosted at http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis.pdf. Recently, a new document with the guideline was presented (January 2018 version) at http://www.ncl.ac.uk/students/progress/assets/documents/GuidelinesfortheSubmissionandFormatofThesis-January2018.pdf. However, no structural modifications were made.
 
 Ph.D. students must allways check their School/Faculty restrictions under the above document, such as maximum word count.
 
@@ -187,6 +187,10 @@ example alphabetically by author within broad topic categories. (Default, not in
 Clone the Overleaf NUTT template directly:
 
 git clone https://git.overleaf.com/13169927jqrxzzvpxmdx
+
+Alternatively, one can download the zip file under the section Project at:
+
+https://www.overleaf.com/read/qhtxnwjytyth
 
 ## License
 
