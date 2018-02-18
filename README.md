@@ -77,7 +77,7 @@ digital format of at least 300dpi. *Note* User responsability.
 individual chapters (Table 1.2 , Figure 2.3), but not within sections or sub
 sections; (Default) *Note* Second option was selected since is more clear, easy to track, and same as in CUED template.
 
-- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; *Note* User responsability. In order to reference a figure ~\ref{fig:nameoffile}
+- [ ] Refer to figures/tables within the text as table 1, figure 2, etc; *Note* User responsability. In order to reference a figure ~\ref{fig:nameoffile} and to reference a table in text ~ref{table:nameoftable} .
 
 - [x] Numbers and captions should appear at the bottom of the table/figure;  (Default)
 
@@ -174,6 +174,13 @@ example alphabetically by author within broad topic categories. (Default, not in
 #### Index (if any)
 
 - [ ] There is no requirement to provide an index. (Default, not included)
+
+## Extras
+
+- [x] Declaration was not initially included in the guidelines. PS: Currently under revision.
+- [x] Nomenclature was not initially included in the guidelines. PS: Currently under revision.
+
+*Note* Both these sections can be removed in the file thesis.tex by comment the \include{declaration} and \printnomenclature lines.
 
 ## Install
 
