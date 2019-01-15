@@ -184,13 +184,10 @@ example alphabetically by author within broad topic categories. (Default, not in
 
 ## Install
 
-Clone the Overleaf NUTT template directly:
+Clone the Overleaf NUTT template into your project root:
 
-git clone https://git.overleaf.com/13169927jqrxzzvpxmdx
-
-Alternatively, one can download the zip file under the section Project at:
-
-https://www.overleaf.com/read/qhtxnwjytyth
+    cd myprojectfolder
+    git clone https://github.com/AndreGuerra123/NUTT . 
 
 ## License
 
