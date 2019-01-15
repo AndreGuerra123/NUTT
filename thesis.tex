@@ -1,90 +1,16 @@
-% ******************************* PhD Thesis Template **************************
+% ******************************* NUTT PhD Thesis Template **************************
+
 % Please have a look at the README.md file for info on how to use the template
 
 \documentclass[a4paper,12pt,times,twoside,flushleft,print,custommargin,authoryear,PageStyleII]{PhDThesisPSnPDF}
 
-% ******************************************************************************
-% ******************************* Class Options ********************************
-% *********************** See README for more details **************************
-% ******************************************************************************
-
-% `a4paper(Default)'
-%
-% '12pt(Default)'
-%
-% `twoside(Default)'
-%
-% `print(Default)': Use `print' for print version with appropriate margins and page
-% layout. Leaving the options field blank will activate Online version.
-%
-% `index'(Guidelines, Optional)': For index at the end of the thesis
-%
-% `draftclassic': For draft mode without loading any images (same as draft in book)
-%
-% `draft': Special draft mode with line numbers, images, and water mark with
-% timestamp and custom text. Position of the text can also be modified.
-%
-% `abstract': To generate only the title page and abstract page with
-% dissertation title and name, to submit to the Student Registry
-%
-% `chapter`: This option enables only the specified chapter and it's references
-%  Useful for review and corrections.
-%
-% ************************* Custom Page Margins ********************************
-%
-% `custommargin(Default)`: Use `custommargin' in options to activate custom page margins,
-% which can be defined in the preamble.tex. Custom margin will override
-% print/online margin setup.
-%
-% *********************** Choosing the Fonts in Class Options ******************
-%
-% `times(Default)' : Times font with math support. (The Cambridge University guidelines
-% recommend using times)
-%
-% `customfont': Use `customfont' option in the document class and load the
-% package in the preamble.tex (for instance if user want arial font, the only other guideline option valid)
-%
-%************************ Text Alignment ***************************************
-%
-% 'flushleft (Default)' As required by the guidelines.
-%
-% ********************** Choosing the Bibliography style ***********************
-%
-% `authoryear(Default)': For author-year citation eg., Krishna (2013). (as defined by the guideline)
-%
-%
-% **************************** Choosing the Page Style *************************
-%.
-% `PageStyleII(Default)': Chapter Name on Even Side (Left Even) in Header. Section Number
-% and Section Name in Header on Odd Side (Right Odd). Page numbering in footer centered.
-
 % ********************************** Preamble **********************************
-% Preamble: Contains packages and user-defined commands and settings
+
 \input{Preamble/preamble}
 
-% ************************ Thesis Information & Meta-data **********************
-% Thesis title and author information, refernce file for biblatex
-\input{thesis-info}
+% ********************************* Meta ********************************
 
-% ***************************** Abstract Separate ******************************
-% To printout only the titlepage and the abstract with the PhD title and the
-% author name for submission to the Student Registry, use the `abstract' option in
-% the document class.
-
-%\ifdefineAbstract
-% \pagestyle{empty}
-% \includeonly{Declaration/declaration, Abstract/abstract}
-%\fi
-
-% ***************************** Chapter Mode ***********************************
-% The chapter mode allows user to only print particular chapters with references
-% Title, Contents, Frontmatter are disabled by default
-% Useful option to review a particular chapter or to send it to supervisior.
-% To use choose `chapter' option in the document class
-
-%\ifdefineChapter
-% \includeonly{Chapter3/chapter3}
-%\fi
+\input{Meta/meta}
 
 % ******************************** Front Matter ********************************
 \begin{document}
@@ -96,8 +22,7 @@
 \include{Abstract/abstract}
 \include{Dedication/dedication}
 \include{Declaration/declaration}
-\include{Acknowledgement/acknowledgement}
-
+\include{Acknowledgements/acknowledgements}
 
 % *********************** Adding TOC and List of Figures ***********************
 
@@ -107,12 +32,10 @@
 
 \listoftables
 
-% \printnomenclature[space] space can be set as 2em between symbol and description
-%\printnomenclature[3em]
-
 \printnomenclature
 
 % ******************************** Main Matter *********************************
+
 \mainmatter
 \include{Introduction/introduction}
 \include{Chapter1/chapter1}
@@ -124,12 +47,6 @@
 %\include{Chapter7/chapter7}
 
 
-
-% ********************************** Back Matter *******************************
-% Backmatter should be commented out, if you are using appendices after References
-%\backmatter
-
-
 % ********************************** Appendices ********************************
 
 \begin{appendices} % Using appendices environment for more functunality
@@ -139,31 +56,16 @@
 
 \end{appendices}
 
-% ********************************** Bibliography ******************************
+% ********************************** References ******************************
+
 \begin{spacing}{0.9}
-
-% To use the conventional natbib style referencing
-% Bibliography style previews: http://nodonn.tipido.net/bibstyle.php
-% Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
-
 \bibliographystyle{apalike}
-%\bibliographystyle{unsrt} % Use for unsorted references  
-%\bibliographystyle{plainnat} % use this to have URLs listed in References
 \cleardoublepage
-\bibliography{References/references} % Path to your References.bib file
-
-
-% If you would like to use BibLaTeX for your references, pass `custombib' as
-% an option in the document class. The location of 'reference.bib' should be
-% specified in the preamble.tex file in the custombib section.
-% Comment out the lines related to natbib above and uncomment the following line.
-
-%\printbibliography[heading=bibintoc, title={References}]
-
+\bibliography{References/references}
 \end{spacing}
 
 
 % *************************************** Index ********************************
-\printthesisindex % If index is present
+\printthesisindex
 
 \end{document}

@@ -158,13 +158,9 @@ text; (Default)
 #### References
 
 - [x] The following styles of referencing are acceptable: Harvard, and alternative
-styles as directed by your School or Institute. (Default is (Lastname, Year)) 
-
-- [ ] Users of EndNote will find the Newcastle Harvard Style included on all
-University networked PCs. Further information about EndNote and Harvard at
-Newcastle can be found at: http://libguides.ncl.ac.uk/endnote TODO: Build some tutorials later on.
-
-- [ ] And the beautiful Mendeley which I devotely use? TODO: Build some tutorials later on.
+styles as directed by your School or Institute. (Default is (Lastname, Year)) Users of EndNote will 
+find the Newcastle Harvard Style included on all University networked PCs. Further information about 
+EndNote and Harvard at Newcastle can be found at: http://libguides.ncl.ac.uk/endnote
 
 #### Bibliography
 
@@ -177,8 +173,8 @@ example alphabetically by author within broad topic categories. (Default, not in
 
 ## Extras
 
-- [x] Declaration was not initially included in the guidelines. PS: Currently under revision.
-- [x] Nomenclature was not initially included in the guidelines. PS: Currently under revision.
+- [x] Declaration was not initially included in the guidelines. 
+- [x] Nomenclature was not initially included in the guidelines. 
 
 *Note* Both these sections can be removed in the file thesis.tex by comment the \include{declaration} and \printnomenclature lines.
 
@@ -188,6 +184,14 @@ Clone the Overleaf NUTT template into your project root:
 
     cd myprojectfolder
     git clone https://github.com/AndreGuerra123/NUTT . 
+
+## Usage
+
+ - Start by mofify the Meta/meta.tex file and add your meta information there.
+ - Look at thesis.tex to check what is the structure of the thesis. 
+ - The default configuration is in use. Add chapters as you go along. The presented chapters have examples of nomenclature, symbols, formulas, etc...
+ - Save your .bib file as References/references.bib and use /citep{Firstname00} in text to reference them.
+ - Submit :)
 
 ## License
 
