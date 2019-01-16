@@ -178,12 +178,35 @@ example alphabetically by author within broad topic categories. (Default, not in
 
 *Note* Both these sections can be removed in the file thesis.tex by comment the \include{declaration} and \printnomenclature lines.
 
-## Install
+## Installation
 
-Clone the Overleaf NUTT template into your project root:
+### Usage
+ - Install Latex and Editor (Texmaker is recommended)
+    '''
+    sudo apt-get install texlive texlive-latex-extra texlive-science psutils texmaker
+    '''
+ - Clone this repo to a folder and open in Texmaker editor.
+ - Start by modify Meta/meta.tex
 
-    cd myprojectfolder
-    git clone https://github.com/AndreGuerra123/NUTT . 
+### Developing
+ - Install IDE (Visual Studio Code) 
+
+    '''
+    sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+    sudo apt-get update
+    sudo apt-get install ubuntu-make
+    umake ide visual-studio-code
+    '''
+
+ - Install Latex
+    '''
+   sudo apt-get install texlive texlive-latex-extra texlive-science psutils
+   '''
+
+ - Clone this repo to a folder and open in IDE.
+ - Add LaTex Workshop extension.
+ - Build (Ctrl-Alt-B) and view generated 'thesis.pdf' file.
+ - Make source code alterations and a pull request to contribute.
 
 ## Usage
 
